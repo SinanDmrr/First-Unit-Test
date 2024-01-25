@@ -11,7 +11,6 @@ namespace ConsoleApp1
         static void Main()
         {
             Person person1 = new Person();
-            // Speichere den Rückgabewert von IsListEmpty in einer Variable
             bool isListEmptyBefore = person1.IsListEmpty();
             Console.WriteLine($"List is empty : {isListEmptyBefore}");
             Console.WriteLine();
@@ -39,7 +38,6 @@ namespace ConsoleApp1
             }
             
 
-            // Speichere den Rückgabewert von IsListEmpty nach dem Hinzufügen einer Person
             bool isListEmptyAfter = person1.IsListEmpty();            
             Console.WriteLine($"List is empty after: {isListEmptyAfter}");
 
